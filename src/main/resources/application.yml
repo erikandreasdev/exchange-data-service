@@ -10,3 +10,9 @@ spring:
       host: localhost
 server:
   port: 8080
+
+exchange:
+  binance:
+    base-url: https://api.binance.com/api/v3
+  kraken:
+    base-url: https://api.kraken.com/0/public
