@@ -1,0 +1,12 @@
+spring:
+  cache:
+    type: redis
+  application:
+    name: exchange-data-service
+  data:
+    redis:
+      connect-timeout: 2000
+      port: 6379
+      host: localhost
+server:
+  port: 8080
